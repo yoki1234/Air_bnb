@@ -1,6 +1,25 @@
 body{
-   width: 100%; 
+   background-image: url("https://img.freepik.com/free-vector/vintage-ray-retro-sunburst-background_92086-49.jpg?w=2000");
+   background-repeat: no-repeat;
+   width: 100%;
+   border: 0;
+   margin: 0;
+   background-attachment: fixed;
+   background-position: center;
 }
-.bg{
+
+.banner_title{
+    margin: 428px 279px;
+    width: 54%;
+    border-radius: 20pc;
+    background-color: rgb(231, 159, 104);
+    
+}
+.banner_title h1{
     width: 100%;
+    text-align: center;
+    margin-top: 17pc;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 60px;
+    text-shadow: 20px;    
 }

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    src: url("./Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2")format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    src: url("./Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2")format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    src: url("./Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2")format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+
+.airbnb_page{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+.option_location p {
+    font-weight: 400;
+
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+.where_to{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.w1 p{
+   font-weight: 500;
+   padding: 0;
+   margin: 0;
+}
+.search_bar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 43px;
+}

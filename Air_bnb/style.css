@@ -1,36 +1,37 @@
 @font-face {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family:"Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
     src: url("./Airbnb_Cereal-Book-9a1c9cca9bb3d65fefa2aa487617805e.woff2")format("woff2");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
     src: url("./Airbnb_Cereal-Medium-50fc004b3082375f12ff0cfb67bf8e56.woff2")format("woff2");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
     src: url("./Airbnb_Cereal-Bold-bdfb98485e7836ba31b456f65cded088.woff2")format("woff2");
     font-weight: 700;
     font-style: normal;
 }
 
 
-
-
-
 .airbnb_page{
     width: 100%;
     background-color: rgb(250, 250, 250);
+    font-family: "Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif";
 }
 .option_location p {
     font-weight: 400;
-
+    font-size: 11px;
     padding: 0;
     margin: 0;
     display: inline-flex;
+    color: #444141;
+    padding-bottom: 9px;
+
 }
 .where_to{
     display: flex;
@@ -38,14 +39,158 @@
     align-items: flex-start;
 }
 .w1 p{
+    font-size: 12px;
    font-weight: 500;
-   padding: 0;
+   padding-top: 8px;
    margin: 0;
 }
 .search_bar{
-    
+
+    border-radius: 50px;
+    width: 88%;
+    box-shadow: 0 0 0 0 rgba(129, 128, 128, 0.2), 0 3px 10px 0 rgba(76, 72, 72, 0.19);
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 43px;
+    gap: 20px;
+}
+.search_icon svg{
+    margin-left:13px;
+}
+.op{
+   border-radius: 40px;
+   border: 1px solid rgb(221, 218, 218);
+}
+.op svg{
+    padding:10px 10px 10px 10px ;
+}
+.header{
+    width: 100%;
+    padding-top:20px;
+}
+.header a{
+ color: black;
+ text-decoration: none;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-bottom: 10px;
+
+}
+.container_swiper {
+    padding-top: 10px;
+    height: 59px;
+    margin: 0;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(176, 173, 173);
+}
+.container_swiper .icon_menu{
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+::-webkit-scrollbar {
+display: none;
+}
+
+.icon_menu p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    padding: 7px 0;
+    color: #554a4a;
+    width: 92px;
+}
+.icon_menu img{
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swiper {
+    
+    width: 294px;
+    height: 100%;
+    margin-top: 25px;
+    border-radius: 17px;
+  }
+
+  .swiper-pagination-bullet {
+width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,8px));
+height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
+display: inline-block;
+border-radius: 50%;
+background: var(--swiper-pagination-bullet-inactive-color,rgb(213, 212, 212));
+opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);}
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 297px;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+}
+/* .heart{
+    position: absolute;
+    margin-top:100px ;
+} */
+.content_details{
+    padding: 14px 0 20px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.rupees{
+    gap : 9px;
+    display: flex;
+  
+}
+.content_details div:nth-child(1){
+    font-weight:500 ;    
+}
+.content_details div:nth-child(2), .content_details div:nth-child(3){
+    font-weight:400 ;
+    font-size: 14px;
+    color: #554a4a;
+}
+.content_details .rupees div:nth-child(2){
+    color:#323232;
+    
 }

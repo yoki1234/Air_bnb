@@ -18,10 +18,13 @@ var swiper = new Swiper(".mySwiper", {
 //     }
 //     lastScrolltop = scrollTop;
 //   })
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 0) {
-      $('.ina').hide();
-  } else {
-      $('.ina').show();
-  }
-});
+// $(window).scroll(function() {
+//   if ($(this).scrollTop() > 0) {
+//       $('.ina').hide();
+//   } else {
+//       $('.ina').show();
+//   }
+// });
+let btn = document.getElementsByClassName('map_hover_menu');
+console.log(btn[1]);
+btn[1].addEventListener('click',function onclick(){btn[1].style.color='#FF385C';});

@@ -47,7 +47,7 @@ body{
    margin: 0;
 }
 .search_bar{
-
+    background-color: aliceblue;
     border-radius: 50px;
     width: 88%;
     box-shadow: 0 0 0 0 rgba(129, 128, 128, 0.2), 0 3px 10px 0 rgba(76, 72, 72, 0.19);
@@ -319,9 +319,6 @@ opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);}
 
 }
 .map{
-    top:483px;
-    right: 113px;
-    position: fixed;
     border-radius: 85px;
     width: 57px;
     background-color: #323232;
@@ -335,42 +332,8 @@ opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);}
     color: #fff;
 
 }
-.bottom_window{
-    height: 114px;
-    width: 100%;
-    background-color: #fff;
-    top: 540px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 6;
-    position: fixed;
-}
-.ina{
-    height: 114px;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    padding: 12px 12px 12px 12px;
-    box-shadow: 0 -10px 21px -19px rgb(176, 173, 173);
-}
-.window_footer{
-    background-color: #fafafa;
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding:20px 20px;
-    gap: 20px;
-}
-.menu_warpper{
-    width: 77px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
 
 .icon_wf path{
     color: #b7aaaa ;
@@ -383,3 +346,45 @@ opacity: var(--swiper-pagination-bullet-inactive-opacity, 1);}
     font-weight: 400;
     color: #554a4a;
 }
+.map_hover_menu{
+    width: 100%;
+    top: 417px;
+    right: 0px;
+    position:fixed;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 7px;
+   background-color: none;
+
+}
+.hover_menu{
+    border-top:1px solid #44414173;
+    background-color: white;
+    width: 100%;
+    padding:13px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.hover_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hover_icon div:nth-child(2){
+    font-size: 10px;
+    font-weight: 500;
+    color: #808080;
+}
+.hover_icon svg{
+    color: #808080;
+}
+.hover_icon svg :active{
+    color: rgb(255, 56, 92) !important;
+}
+
